@@ -28,7 +28,7 @@ wait = WebDriverWait(driver, 600)
 # for a condition to be satisfied
 time.sleep(10)
 
-target = '"Debo"'
+target = '"any name "'
 string = "Python Automation"*5
 x_arg = '//span[contains(@title,' + target + ')]'
 
